@@ -1,0 +1,54 @@
+<!-- "<table style=\"border-collapse: collapse; width: 100%; height: 106px;\" border=\"1\" data-mce-id=\"__mce\">\n<thead>\n
+        <tr style=\"height: 37px;\">\n<td>序号</td>\n<td>产品名称</td>\n<td>产品型号</td>\n<td>单位</td>\n<td>数量</td>\n<td>备注</td>\n
+        </tr>\n</thead>\n<tbody>\n<tr style=\"height: 37px;\">\n<td>{{index}}</td>\n<td>{{name}}</td>\n<td>{{xinghao}}
+            </td>\n<td>{{danwei}}</td>\n<td>{{num}}</td>\n<td>{{time}}</td>\n</tr>\n</tbody>\n</table>"
+
+
+"<table style=\"border-collapse: collapse; width: 100%; height: 106px;\" border=\"1\" data-mce-id=\"__mce\">\n<thead>\n
+        <tr v-bind=\"key\">\n<td>序号</td>\n<td>产品名称</td>\n<td>产品型号</td>\n<td>单位</td>\n<td>数量</td>\n<td>备注</td>\n</tr>\n
+    </thead>\n<tbody>\n<tr v-for=\"(row, index) in items\" v-bind=\"key\">\n<td>{{index}}</td>\n<td>{{name}}</td>\n<td>
+                {{xinghao}}</td>\n<td>{{danwei}}</td>\n<td>{{num}}</td>\n<td>{{time}}</td>\n</tr>\n</tbody>\n</table>" -->
+
+
+<!-- 
+
+                    "with(this){return _c('table',{staticStyle:{"border-collapse":"collapse","width":"100%","height":"106px"},attrs:{"border":"1","data-mce-id":"__mce"}},[_m(0),_v(" "),_c('tbody',_l((details),function(row,index){return _c('tr',[_c('td',[_v(_s(index+1))]),_v(" "),_c('td',[_v(_s(row.a))]),_v(" "),_c('td',[_v(_s(row.b))]),_v(" "),_c('td',[_v(_s(row.c))])])}),0)])}"
+
+                 -->
+
+"<p style=\"text-align: center;\"><span style=\"font-size: 18pt;\"><strong> &nbsp;</strong><strong>产&nbsp; 品&nbsp;
+            明&nbsp; 细&nbsp; 表</strong></span>&nbsp; &nbsp; &nbsp;<span style=\"font-size: 10pt;\">山西*********有限公司</span>
+</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 73px;\" border=\"1\" data-mce-id=\"__mce\">\n
+    <tbody>\n<tr style=\"height: 31px;\">\n<td style=\"width: 28.9063%; height: 43px;\"><span style=\"font-size:
+                    10pt;\">客户名称：{{customerName}}</span></td>\n<td style=\"width: 30.571%; height: 43px;\"><span
+                    style=\"font-size: 10pt;\">客户手机号：{{customerPhone}}</span></td>\n<td style=\"width: 40.3925%; height:
+                43px;\"><span style=\"font-size: 10pt;\">出库编号：{{code}}</span></td>\n</tr>\n<tr style=\"height: 30px;\">
+            \n<td style=\"width: 28.9063%; height: 30px;\"><span style=\"font-size: 10pt;\">业务员：{{staff}}</span></td>\n
+            <td style=\"width: 30.571%; height: 30px;\"><span style=\"font-size: 10pt;\">业务手机号：{{staffPhone}}</span>
+            </td>\n<td style=\"width: 40.3925%; height: 30px;\"><span style=\"font-size: 10pt;\">出库时间：{{time}}</span>
+            </td>\n</tr>\n</tbody>\n</table>\n<table style=\"border-collapse: collapse; width: 100%; height: 80px;\"
+    border=\"1\" data-mce-id=\"__mce\">\n<thead>\n<tr style=\"height: 37px;\">\n<td style=\"width: 7.55209%; text-align:
+                center; vertical-align: middle; height: 24px;\"><span style=\"font-size: 10pt;\">序号</span></td>\n<td
+                style=\"width: 21.7446%; text-align: center; vertical-align: middle; height: 24px;\"><span
+                    style=\"font-size: 10pt;\">产品名称</span></td>\n<td style=\"width: 19.7918%; text-align: center;
+                vertical-align: middle; height: 24px;\"><span style=\"font-size: 10pt;\">产品型号</span></td>\n<td
+                style=\"width: 9.24479%; text-align: center; vertical-align: middle; height: 24px;\"><span
+                    style=\"font-size: 10pt;\">单位</span></td>\n<td style=\"width: 8.72391%; text-align: center;
+                vertical-align: middle; height: 24px;\"><span style=\"font-size: 10pt;\">数量</span></td>\n<td
+                style=\"width: 17.9688%; text-align: center; vertical-align: middle; height: 24px;\"><span
+                    style=\"font-size: 10pt;\">备注</span></td>\n</tr>\n</thead>\n<tbody>\n<tr v-for=\"(row, index) in
+            details\" style=\"height: 33px;\">\n<td v-html=\"index+1\" style=\"width: 7.55209%; text-align: center;
+                vertical-align: middle; height: 25px;\"><span style=\"font-size: 10pt;\">{index}</span></td>\n<td
+                style=\"width: 21.7446%; text-align: center; vertical-align: middle; height: 25px;\"><span
+                    style=\"font-size: 10pt;\">{{row.a}}</span></td>\n<td style=\"width: 19.7918%; text-align: center;
+                vertical-align: middle; height: 25px;\"><span style=\"font-size: 10pt;\">{{row.b}}</span></td>\n<td
+                style=\"width: 9.24479%; text-align: center; vertical-align: middle; height: 25px;\"><span
+                    style=\"font-size: 10pt;\">{{row.c}}</span></td>\n<td style=\"width: 8.72391%; text-align: center;
+                vertical-align: middle; height: 25px;\"></td>\n<td style=\"width: 17.9688%; text-align: center;
+                vertical-align: middle; height: 25px;\"></td>\n</tr>\n<tr style=\"height: 29px;\">\n<td colspan=\"2\"
+                style=\"width: 7.55209%; height: 31px;\"><span style=\"font-size: 10pt;\">付款方式：</span><span
+                    style=\"font-size: 10pt;\"><br /></span></td>\n<td colspan=\"2\" style=\"width: 19.7918%; height:
+                31px;\"><span style=\"font-size: 10pt;\">交货方式：</span></td>\n<td colspan=\"2\" style=\"width: 8.72391%;
+                height: 31px;\"><span style=\"font-size: 10pt;\">客户签名</span></td>\n</tr>\n</tbody>\n</table>\n<p
+    style=\"text-align: center;\"><span style=\"font-size: 10pt;\">**** 公司主营：******</span></p>\n<p style=\"text-align:
+    center;\"><span style=\"font-size: 10pt;\">&nbsp;公司联系方式：{{staffPhone}}</span></p>"
